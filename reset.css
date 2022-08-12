@@ -24,7 +24,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
 	line-height: 1;
+    padding: 1rem;
 }
 ol, ul {
 	list-style: none;
