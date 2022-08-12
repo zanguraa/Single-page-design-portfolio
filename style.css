@@ -53,20 +53,28 @@ nav {
 }
 
 .card-section {
-
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 2rem 0 5rem 0;
 }
 
 .card {
-    background-image: url(./assets/pattern-graphic-design.svg);
-    background-position: top right;
-    background-repeat: no-repeat;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 22.75rem;
+    background-color: #755CDE;
     border-radius: 8px;
 }
 
-.card img {
-    position: relative;
-    top: 1rem;
-    left: 54%;
+.card > .img-container {
+    text-align: right;
+}
+
+.card-title-container {
+
 }
 
 .card h2 {
@@ -76,9 +84,6 @@ nav {
     font-size: 24px;
     line-height: 30px;
     color: #FFFFFF;
-    position: relative;
-    top: 34%;
-    left: 1rem;
 }
 
 .graphic-design {
@@ -88,8 +93,110 @@ nav {
     
 }
 
-/* .graphic-img {
-    position: relative;
-    top: 1rem;
-    left: 54%;
-} */
+.ui-ux {
+    height: 9rem;
+    flex-basis: 36%;
+    background: #F6A560;
+}
+
+.app {
+    height: 9rem;
+    flex-basis: 36%;
+    background: #F39E9E;
+}
+
+.illustrations {
+    width: 100%;
+    height: 7.375rem;
+    background: #EB7565;
+}
+
+.photography {
+    width: 100%;
+    height: 9rem;
+    background: #61C4B7;
+}
+
+.motion {
+    width: 100%;
+    height: 9rem;
+    background: #552049;
+}
+
+.suggest {
+
+}
+
+.suggest-img {
+    box-sizing: content-box;
+    width: 90%;
+    padding: 1rem;
+}
+
+.amy-img {
+    width: 100%;
+}
+
+.speech {
+    text-align: center;
+}
+
+.title-amy {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    color: #030303;
+    margin: 1.5rem 0;
+}
+
+.sug-btn, .book-btn {
+    background: #EB7565;
+    margin: 1rem 0;
+}
+
+.left-right {
+    margin: 2rem;
+    text-align: center;
+}
+
+.book-container {
+    background: #030303;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.book-article {
+    padding: 2rem 1.5rem;
+}
+
+.book-article h2 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFF7F0;
+    
+}
+
+.book-article span {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFF7F0;
+    margin: 1rem 0;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+
+.footer-btn {
+    background: #030303;
+}
+
