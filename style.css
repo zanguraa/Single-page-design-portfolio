@@ -4,6 +4,7 @@ body {
 
 .header-container {
 margin-bottom: 2rem;
+padding: 1rem;
 }
 
 nav {
@@ -55,6 +56,7 @@ nav {
 .card-section {
     display: flex;
     gap: 1rem;
+    padding: 0 1rem;
     flex-wrap: wrap;
     margin: 2rem 0 5rem 0;
 }
@@ -93,6 +95,12 @@ nav {
     
 }
 
+.ui-app-ilustrator {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
 .ui-ux {
     height: 9rem;
     flex-basis: 36%;
@@ -111,19 +119,23 @@ nav {
     background: #EB7565;
 }
 
-.photography {
+.photo-motion {
     width: 100%;
+}
+
+.photography {
     height: 9rem;
     background: #61C4B7;
+    margin-bottom: 1.25rem;
 }
 
 .motion {
-    width: 100%;
     height: 9rem;
     background: #552049;
 }
 
 .suggest {
+    padding: 0 1rem;
 
 }
 
@@ -155,19 +167,50 @@ nav {
     margin: 1rem 0;
 }
 
+.slider-container {
+    margin: 5rem 0;
+}
+
+.slider-container h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #030303;
+}
+
+.slider-imgs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: nowrap; */
+    /* flex-direction: row; */
+    gap: 1rem;
+    overflow: hidden;
+}
+
+.slider {
+    width: 72%;
+    border-radius: 5%;
+}
+
 .left-right {
     margin: 2rem;
     text-align: center;
 }
 
 .book-container {
-    background: #030303;
-    border-radius: 10px;
+    padding: 0 1rem;
+    
+    
     text-align: center;
 }
 
 .book-article {
     padding: 2rem 1.5rem;
+    background: #030303;
+    border-radius: 10px;
 }
 
 .book-article h2 {
@@ -194,9 +237,414 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin-top: 2.5rem;
+    padding: 0 1rem;
 }
 
 .footer-btn {
     background: #030303;
 }
 
+
+@media  screen and (min-width: 48rem) {
+
+
+.header-container {
+    margin-bottom: 4rem;
+    padding: 2rem;
+}
+
+.article-text {
+    display: block;
+    padding: 0 6.2rem;
+
+}
+
+.card-section {
+    padding: 0 0 0 2rem;
+}
+
+.graphic-design {
+    flex-basis: 41.7%;
+    height: 20rem;
+}
+
+.ui-app-ilustrator {
+    display: flex;
+    /* gap: 1.33rem; */
+    row-gap: 1.1rem;
+    width: 47%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.illustrations {
+    flex-basis: 89%;
+}
+
+.ui-ux{
+    margin-right: 1rem;
+    height: 9rem;
+    flex-basis: 33.5%;
+}
+
+.app {
+    height: 9rem;
+    flex-basis: 33.5%;
+}
+
+.photo-motion {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.photography, .motion {
+    flex-basis: 41.7%;
+}
+
+.suggest {
+    display: flex;
+}
+
+.suggest-img {
+    flex-basis: 50%;
+    position: relative;
+    left: -74px;
+}
+
+.speech {
+    flex-basis: 52%;
+    text-align: left;
+}
+
+.title-amy {
+    text-align: left;
+}
+
+.article-text {
+    display: block;
+    text-align: left;
+    padding: 0;
+}
+
+.book-container {
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.book-article {
+    padding: 2rem 6.5rem;
+    background: #030303;
+    border-radius: 10px;
+}
+
+.footer-container {
+    padding: 0 2rem;
+}
+    
+}
+
+@media screen and (min-width: 1200px){
+
+    .header-container {
+        padding: 2rem 10.25rem;
+    }
+    
+    .article-one {
+        padding: 1rem 21.5rem;
+    }
+
+    .main-h1 {
+        text-align: left;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 71px;
+        /* text-align: center; */
+        color: #030303;
+    }
+
+    .article-text {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        margin-left: 2rem;
+        color: #7A746E;
+    }
+
+    .card-section {
+        padding: 2rem 8rem;
+        gap: 1rem;
+    }
+
+    .graphic-design {
+        flex-basis: 30%;
+        height: 20.3rem;
+    }
+
+    .ui-app-ilustrator {
+        flex-basis: 30%;
+        height: 23rem;
+    }
+
+    .photo-motion {
+        flex-basis: 30%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+    
+    .ui-ux {
+        height: 9rem;
+        flex-basis: 33%;
+        margin: 0;
+    }
+
+    .app {
+        height: 9rem;
+        flex-basis: 33%;
+    }
+
+   
+
+    .photography {
+            margin: 0;
+            height: 9rem;
+    }
+    
+    .suggest {
+        padding: 0 10.25rem;
+        gap: 7.813rem;
+    }
+
+    .suggest-img {
+        flex-basis: 40%;
+        position: inherit;
+        padding: 0;
+        margin: 0;
+    }
+
+    .title-amy {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: #030303;
+        margin-bottom: 2rem;
+    }
+
+    .article-text {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: left;
+        margin-left: 0;
+        color: #7A746E;
+    }
+
+    .main-button {
+        width: 14.25rem;
+        height: 3.5rem;
+        font-size: 16px;
+    }
+
+   .book-container {
+    padding: 0 10.25rem;
+   }
+
+   .book-article {
+    display: flex;
+    padding: 5.125rem 4.063rem;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .book-column {
+    flex-basis: 55%;
+   }
+
+   .book-column h2 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFF7F0;
+    margin: 0;
+    text-align: left;
+   }
+
+   .book-article span {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFF7F0;
+    margin: 1rem 0;
+    text-align: left;
+}
+
+.footer-container {
+    padding: 0 10.25rem;
+    margin-bottom: 4rem;
+}
+
+    
+}
+
+@media screen and (min-width: 1440px){
+
+    .header-container {
+        padding: 2rem 10.25rem;
+    }
+    
+    .article-one {
+        padding: 1rem 21.5rem;
+    }
+
+    .main-h1 {
+        text-align: left;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 71px;
+        /* text-align: center; */
+        color: #030303;
+    }
+
+    .article-text {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        margin-left: 2rem;
+        color: #7A746E;
+    }
+
+    .card-section {
+        padding: 2rem 10.25rem;
+    }
+
+    .graphic-design {
+        flex-basis: 28.5%;
+        height: 20.3rem;
+    }
+
+    .ui-app-ilustrator {
+        flex-basis: 32.5%;
+        height: 23rem;
+    }
+    
+    .ui-ux {
+        height: 9rem;
+        flex-basis: 36%;
+        margin: 0;
+    }
+
+    .app {
+        height: 9rem;
+        flex-basis: 36%;
+    }
+
+    .photo-motion {
+        flex-basis: 32.3%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+
+    .photography {
+            margin: 0;
+            height: 9rem;
+    }
+    
+    .suggest {
+        padding: 0 10.25rem;
+        gap: 7.813rem;
+    }
+
+    .suggest-img {
+        flex-basis: 40%;
+        position: inherit;
+        padding: 0;
+        margin: 0;
+    }
+
+    .title-amy {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: #030303;
+        margin-bottom: 2rem;
+    }
+
+    .article-text {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: left;
+        margin-left: 0;
+        color: #7A746E;
+    }
+
+    .main-button {
+        width: 14.25rem;
+        height: 3.5rem;
+        font-size: 16px;
+    }
+
+   .book-container {
+    padding: 0 10.25rem;
+   }
+
+   .book-article {
+    display: flex;
+    padding: 5.125rem 4.063rem;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .book-column {
+    flex-basis: 55%;
+   }
+
+   .book-column h2 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFF7F0;
+    margin: 0;
+    text-align: left;
+   }
+
+   .book-article span {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFF7F0;
+    margin: 1rem 0;
+    text-align: left;
+}
+
+.footer-container {
+    padding: 0 10.25rem;
+    margin-bottom: 4rem;
+}
+
+    
+}
