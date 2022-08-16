@@ -17,11 +17,11 @@
     />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./reset.css" />
-    <title>Frontend Mentor | Single-page design portfolio</title>
+    <title>Single-page design portfolio</title>
   </head>
   <body>
 
-    <header class="header-container">
+    <header class="header-container container">
       <nav style="display: flex">
         <div>
           <img class="logo" src="./assets/logo.svg" alt="logo" />
@@ -39,7 +39,7 @@
       </span> 
     </article>
 
-    <section class="card-section">
+    <section class="card-section container">
 
       <div class="graphic-design card">
         <div class="img-container">
@@ -114,7 +114,7 @@
 
     </section>
 
-    <section class="suggest">
+    <section class="suggest container">
       <div class="suggest-img">
         <img class="amy-img" src="./assets/image-amy.webp" alt="image-amy">
       </div>
@@ -138,22 +138,32 @@
     <section class="slider-container">
       <h2>My Work</h2>
 
-      <div class="slider-imgs">
-        <img class="slider-1 slider" src="./assets/image-slide-1.jpg" alt="image-slide-1">
-        <img class="slider-2 slider" src="./assets/image-slide-2.jpg" alt="image-slide-2">
-        <img class="slider-3 slider" src="./assets/image-slide-3.jpg" alt="image-slide-3">
-        <img class="slider-4 slider" src="./assets/image-slide-4.jpg" alt="image-slide-4">
-        <img class="slider-5 slider" src="./assets/image-slide-5.jpg" alt="image-slide-5">
+      <div id="sliderImgs" class="slider-imgs">
+        
+          <img  class="slider-photo slider" src="./assets/image-slide-1.jpg" alt="image-slide-1">
+        
+        
+          <img class="slider-photo slider" src="./assets/image-slide-2.jpg" alt="image-slide-2">
+        
+        
+          <img class="slider-photo slider" src="./assets/image-slide-3.jpg" alt="image-slide-3">
+        
+        
+          <img class="slider-photo slider" src="./assets/image-slide-4.jpg" alt="image-slide-4">
+        
+        
+          <img class="slider-photo slider" src="./assets/image-slide-5.jpg" alt="image-slide-5">
+        
       </div>
 
       <div class="left-right">
-        <img class="left-arrow" src="./assets/left.png" alt="left-arrow">
-        <img class="right-arrow" src="./assets/right.png" alt="right-arrow">
+        <img id="left" class="left-arrow" src="./assets/left.png" alt="left-arrow">
+        <img id="right" class="right-arrow" src="./assets/right.png" alt="right-arrow">
       </div>
     
     </section>
 
-    <section class="book-container">
+    <section class="book-container container">
         <article class="book-article">
           <div class="book-column">
           <h2>
@@ -171,12 +181,12 @@
         </article>
     </section>
               
-    <footer class="footer-container">
+    <footer class="footer-container container">
       <img class="logo" src="./assets/logo.svg" alt="">
       <button class="main-button footer-btn">
         Free Consultation
       </button>
     </footer>
-    
+    <script src="./script.js"></script>
   </body>
 </html>
